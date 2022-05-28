@@ -1,0 +1,118 @@
+.grid-sizer {
+    width: 32vw;
+}
+
+
+.content-column {
+    padding-top: 5%;
+    width: 30vw;
+    height: 100vh;
+    background-color: #EEE9CC;
+}
+
+body {
+    background-color: #F4EEED;
+}
+
+.ach {
+    margin-left: 25%;
+    width: auto;
+    height: 30%;
+}
+
+.playlist-title {
+    opacity: 75%;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.music-title {
+    opacity: 25%;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ach-img {
+    width: 40%;
+}
+
+.label-column {
+    position: relative;
+    color: #000000;
+    opacity: 40%;
+    width: 0vw;
+}
+
+
+#music {
+    background-color: #EFD9D1;
+}
+
+#music-label {
+    position: absolute;
+    color: #000000;
+    opacity: 25%;
+    margin-top: 3%;
+    margin-left: 97.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+}
+
+#playlists {
+    background-color: #D8AC9C;
+}
+
+#playlist-label {
+
+    margin-left: 85%;
+    float: right;
+    content: "";
+    clear: both;
+    color: #FFFFFF;
+    opacity: 40%;
+    margin-top: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+#projects {
+    background-color: #999B84;
+}
+
+#project-label {
+    color: #FFFFFF;
+    opacity: 40%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 5em;
+    margin-top: 15%;
+    margin-left: 85%;
+}
+
+#sc-logo {
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 0.5%;
+    opacity: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+#spotify-logo {
+    position: absolute;
+    margin-left: 61.5%;
+    margin-top: -0.5%;
+    opacity: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+#git-logo {
+    position: absolute;
+    margin-left: 29%;
+    opacity: 50%;
+    width: 40px;
+    height: 40px;
+}
