@@ -34,7 +34,8 @@ body {
 }
 
 .ach-img {
-    width: 40%;
+    aspect-ratio: 1 / 1;
+    width: 50%;
 }
 
 .label-column {
@@ -51,12 +52,12 @@ body {
 
 #music-label {
     position: absolute;
-    color: #000000;
-    opacity: 25%;
+    color: #FFFFFF;
+    opacity: 100%;
     margin-top: 3%;
-    margin-left: 97.5%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    margin-left: 97%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
     font-size: 5em;
 }
 
@@ -66,15 +67,15 @@ body {
 
 #playlist-label {
 
-    margin-left: 85%;
+    margin-left: 82%;
     float: right;
     content: "";
     clear: both;
     color: #FFFFFF;
-    opacity: 40%;
+    opacity: 100%;
     margin-top: 15%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
 }
 
 #projects {
@@ -83,12 +84,12 @@ body {
 
 #project-label {
     color: #FFFFFF;
-    opacity: 40%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    opacity: 100%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
     font-size: 5em;
     margin-top: 15%;
-    margin-left: 85%;
+    margin-left: 83%;
 }
 
 #sc-logo {
