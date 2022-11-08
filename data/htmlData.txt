@@ -1,7 +1,14 @@
-!--------MUSIC-------------
-<div class="ach skew-x-6"> <a href="https://soundcloud.com/quinndaco/somber-work-on-side-chain-pad-and-kick"><img class="ach-img" src=https://i1.sndcdn.com/artworks-raS55Bhje3fbC8nz-q1JXFQ-t500x500.jpg/></a><p class="musicgi-title">somber battle!? by Quinn</p></div>
+!--------PROJECTS START----------
 
-<div class="ach skew-x-6"> <a href="https://open.spotify.com/track/1pxzbdQXHELLA3HS4iKLe1?si=4e863c67d01c481e"><img class="ach-img" src=https://i.scdn.co/image/ab67616d00001e02c18221dabe182ab1adc4dc81/></a><p class="musicgi-title">Pumpkin Cake</p></div>
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/QuinnDACollins.github.io"><img class="ach-img" src=https://raw.githubusercontent.com/QuinnDACollins/QuinnDACollins.github.io/main/thumb.png/></a><p class="playlist-title">QuinnDACollins.github.io</p></div>
 
-!--------MUSIC END-------------
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/quinnparser3000"><img class="ach-img" src=https://raw.githubusercontent.com/QuinnDACollins/quinnparser3000/main/thumb.png/></a><p class="playlist-title">quinnparser3000</p></div>
+
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/cs233"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">cs233</p></div>
+
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/cs225"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">cs225</p></div>
+
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/step"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">step</p></div>
+
+!--------PROJECTS END----------
 
