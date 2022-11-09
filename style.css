@@ -12,6 +12,7 @@
 
 body {
     background-color: #F4EEED;
+    overflow: hidden;
 }
 
 .ach {
