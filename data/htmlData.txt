@@ -1,5 +1,7 @@
 !--------PROJECTS START----------
 
+<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/minime"><img class="ach-img" src=https://raw.githubusercontent.com/QuinnDACollins/minime/main/thumb.png/></a><p class="playlist-title">minime</p></div>
+
 <div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/QuinnDACollins.github.io"><img class="ach-img" src=https://raw.githubusercontent.com/QuinnDACollins/QuinnDACollins.github.io/main/thumb.png/></a><p class="playlist-title">QuinnDACollins.github.io</p></div>
 
 <div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/quinnparser3000"><img class="ach-img" src=https://raw.githubusercontent.com/QuinnDACollins/quinnparser3000/main/thumb.png/></a><p class="playlist-title">quinnparser3000</p></div>
@@ -7,8 +9,6 @@
 <div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/cs233"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">cs233</p></div>
 
 <div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/cs225"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">cs225</p></div>
-
-<div class="ach skew-x-6"> <a href="https://github.com/QuinnDACollins/step"><img class="ach-img" src=data/gitpl.png/></a><p class="playlist-title">step</p></div>
 
 !--------PROJECTS END----------
 
