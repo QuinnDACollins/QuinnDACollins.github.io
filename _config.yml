@@ -1,9 +1,9 @@
 url: 'http://quinn.cafe'
-baseurl: 'QuinnDACollins.github.io '
+#baseurl: 'QuinnDACollins.github.io '
 title: 'quinns cafe'
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
 
 postcss:
   cache: false
