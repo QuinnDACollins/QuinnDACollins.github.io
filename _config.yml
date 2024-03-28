@@ -5,9 +5,6 @@ title: 'quinns cafe'
 plugins:
   - jekyll-postcss-v2
 
-postcss:
-  cache: false
-
 exclude:
   - package.json
   - postcss.config.js
