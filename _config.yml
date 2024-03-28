@@ -1,5 +1,5 @@
 url: 'http://quinn.cafe'
-#baseurl: 'QuinnDACollins.github.io'
+baseurl: 'QuinnDACollins.github.io'
 title: "quinn's cafe" # the name of your site, e.g. ACME Corp.
 
 plugins:
