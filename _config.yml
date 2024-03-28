@@ -6,13 +6,5 @@ plugins:
   - jekyll-postcss-v2
 
 postcss:
-  cache: false
   script: node_modules/.bin/postcss
   config: postcss.config.js
-
-sass:
-  load_paths:
-    - _sass
-    - node_modules
-
-include: ["node_modules/tailwindcss"]
