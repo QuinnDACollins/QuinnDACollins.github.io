@@ -1,12 +1,9 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+url: 'http://www.quinn.cafe' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 'quinn.cafe' # the subpath of your site, e.g. /blog
+title: "quinn's cafe" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss-v2
-
-url: 'http://www.quinn.cafe'
-baseurl: 'quinn.cafe'
 
 postcss:
   cache: false
