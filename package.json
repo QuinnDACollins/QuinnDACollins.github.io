@@ -6,6 +6,7 @@
     "tailwindcss": "^3.0.24"
   },
   "dependencies": {
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "ruby": "^0.6.1"
   }
 }
