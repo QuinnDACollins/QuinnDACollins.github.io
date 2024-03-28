@@ -1,8 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "quinn's cafe!"
 ---
 
-## You're ready to go!
-
-Start developing your Jekyll website.
+# quinn
