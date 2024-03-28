@@ -1,10 +1,15 @@
 url: 'http://quinn.cafe'
-baseurl: 'QuinnDACollins.github.io'
-title: "quinn's cafe" # the name of your site, e.g. ACME Corp.
+baseurl: 'QuinnDACollins.github.io '
+title: 'quinns cafe'
 
 plugins:
-  - jekyll-postcss-v2
+  - jekyll-postcss
 
 postcss:
-  script: node_modules/.bin/postcss
-  config: postcss.config.js
+  cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
