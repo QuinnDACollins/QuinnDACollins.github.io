@@ -1,5 +1,4 @@
 url: 'http://quinn.cafe' # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '' # the subpath of your site, e.g. /blog
 title: "quinn's cafe" # the name of your site, e.g. ACME Corp.
 
 plugins:
