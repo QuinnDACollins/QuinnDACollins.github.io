@@ -1,5 +1,5 @@
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://quinn.cafe' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 'quinn.cafe' # the subpath of your site, e.g. /blog
 title: "quinn's cafe" # the name of your site, e.g. ACME Corp.
 
 plugins:
@@ -8,3 +8,4 @@ plugins:
 postcss:
   cache: false
 
+include: ["node_modules/tailwindcss"]
