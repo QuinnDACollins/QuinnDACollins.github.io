@@ -36,12 +36,12 @@
         <h1> Collection </h1>
         <div class="grid w-auto h-1/2 grid-cols-3 overflow-y-scroll overflow-x-clip">          
           {% for post in site.posts %}
-          <div id = "{{ post.title }}"onclick="updateDescription(this)" class="collection-item flex h-36 w-36 shrink-0 grow-0 items-center justify-center bg-white rounded-full">
+          <div id = "{{ post.class }}"onclick="updateDescription(this)" class="collection-item flex h-36 w-36 shrink-0 grow-0 items-center justify-center bg-white rounded-full">
             <model-viewer camera-controls touch-action="pan-y" src="/assets/models/{{ post.src }}" disable-zoom disable-tap shadow-intensity="0"></model-viewer>
           </div>
-          <span id="post->{{ post.title }}-title" style="display: none;">{{ post.title }}</span>
-          <span id="post-{{ post.title }}-description" style="display: none;">{{ post.excerpt }}</span>
-          <span id="post-{{ post.title }}-who" style="display: none;">{{ post.who }}</span>
+          <span id="post->{{ post.class }}-title" style="display: none;">{{ post.title }}</span>
+          <span id="post-{{ post.class }}-description" style="display: none;">{{ post.excerpt }}</span>
+          <span id="post-{{ post.class }}-who" style="display: none;">{{ post.who }}</span>
           {% endfor %}
         </div>
         <div id="collection-box" onblur="shrinkDescription()"class="rounded-lg flex-initial ml-8 h-1/4 animate__animated animate__slideOutRight" >
