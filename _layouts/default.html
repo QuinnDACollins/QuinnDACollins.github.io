@@ -37,15 +37,15 @@
         <div class="grid w-auto h-1/2 grid-cols-3 overflow-y-scroll overflow-x-clip">          
           {% for post in site.posts %}
           <div onclick="updateDescription(this)" class="collection-item flex h-36 w-36 shrink-0 grow-0 items-center justify-center bg-white rounded-full">
-            <model-viewer camera-controls touch-action="pan-y" src="/assets/models/can.glb" disable-zoom disable-tap shadow-intensity="0"></model-viewer>
+            <model-viewer camera-controls touch-action="pan-y" src="/assets/models/{{ post.src }}" disable-zoom disable-tap shadow-intensity="0"></model-viewer>
           </div>
           <span style="display: none;">{{ post.title }}</span>
           <span style="display: none;">{{ post.excerpt }}</span>
           {% endfor %}
         </div>
         <div id="collection-box" onblur="shrinkDescription()"class="rounded-lg ml-8 animate__animated animate__slideOutRight" >
-          <h4 id="collection-title" class="text-lg text-white"></h4>
-          <p id="collection-description" class="text-md text-white"></p>
+          <h4 id="collection-title" class="ml-2 mt-4 text-xl text-white"></h4>
+          <p id="collection-description" class="text-md text-white m-4"></p>
         </div>
         <script src="https://gumroad.com/js/gumroad.js"></script>
         <a style="float:right" class="gumroad-button" href="https://quinndaco.gumroad.com/l/item">buy an item at</a>
