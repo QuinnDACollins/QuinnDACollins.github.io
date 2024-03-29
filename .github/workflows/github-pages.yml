@@ -14,11 +14,8 @@ jobs:
         run: |
           npm ci
           npm run build
-          npm install -D tailwindcss
-          npx tailwindcss init
-          npx tailwindcss -i ./assets/main.css -o ./assets/main.css --watch
-          
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build # The folder the action should deploy.
+          folder: ./_site # The folder the action should deploy.
