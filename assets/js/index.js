@@ -7,9 +7,10 @@ window.addEventListener('click', function(e){
   });
 
 function updateDescription(element) {
-    var title = element.chidren.getElementById("post-title")
-    var description = element.chidren.getElementById("post-description")
-    var who = element.chidren.getElementById("post-who")
+    var ctx = element.id;
+    var title = element.children.getElementById("post-" + ctx + "-title")
+    var description = element.children.getElementById("post-" + ctx + "-description")
+    var who = element.children.getElementById("post-" + ctx + "who")
     document.getElementById("collection-title").textContent = title.textContent;
     document.getElementById("collection-description").textContent = description.textContent;
     document.getElementById("collection-who").textContent = who.textContent;
