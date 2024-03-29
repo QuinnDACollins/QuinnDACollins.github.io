@@ -10,7 +10,7 @@ function updateDescription(element) {
     var ctx = element.id;
     var title = document.getElementById("post-" + ctx + "-title")
     var description = document.getElementById("post-" + ctx + "-description")
-    var who = document.getElementById("post-" + ctx + "who")
+    var who = document.getElementById("post-" + ctx + "-who")
     document.getElementById("collection-title").textContent = title.textContent;
     document.getElementById("collection-description").textContent = description.textContent;
     document.getElementById("collection-who").textContent = who.textContent;
