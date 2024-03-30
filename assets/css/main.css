@@ -60,3 +60,7 @@ h1 {
     width: 0%;
   }
 
+#collection-box {visibility: hidden;}
+#collection-box.animated {visibility: visible;}
+#collection-box.animate__slideInRight {visibility: visible;}
+#collection-box.animate__slideOutRight {visibility: visible;}
