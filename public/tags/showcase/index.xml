@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Showcase on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/showcase/</link>
+    <description>Recent content in Showcase on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/showcase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bike lock</title>
+      <link>http://localhost:1313/showcase/1/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/showcase/1/</guid>
+      <description>&lt;p&gt;A bike lock&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>can</title>
+      <link>http://localhost:1313/showcase/3/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/showcase/3/</guid>
+      <description>&lt;p&gt;a can of valor branded soda&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mall soda</title>
+      <link>http://localhost:1313/showcase/4/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/showcase/4/</guid>
+      <description>&lt;p&gt;a soda from a mall&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>moving box</title>
+      <link>http://localhost:1313/showcase/2/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/showcase/2/</guid>
+      <description>&lt;p&gt;a moving box, whoever used it must be goin places&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

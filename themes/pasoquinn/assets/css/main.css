@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "seurat";
+  src: url('seurat.woff2')
+}
+
+.belanosima-regular {
+  font-family: "Belanosima", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.belanosima-semibold {
+  font-family: "Belanosima", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.belanosima-bold {
+  font-family: "Belanosima", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  color: #222;
+  line-height: 1.5;
+  margin: 0rem;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+.block {
+  display: block;
+}
+
+.grid-post {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 14% 1fr 10% 5.5% 5.5%;
+  align-items: flex-start;
+  justify-content: space-between;
+  -moz-column-gap: 4rem;
+  column-gap: 4rem;
+}
+
+.grid-head {
+  display: grid;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.showcase-selected {
+  border-color: #FBEC5D;
+}
