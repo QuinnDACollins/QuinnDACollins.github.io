@@ -45,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: collage
+          name: collage.jpg
           path: themes/pasoquinn/assets/img/collage.jpg
       - name: Install Hugo CLI
         run: |
