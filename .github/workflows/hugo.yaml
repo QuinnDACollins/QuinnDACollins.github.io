@@ -35,7 +35,7 @@ jobs:
       HUGO_VERSION: 0.141.0
     steps:
       - name: get collage
-        run: wget -O https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true > collage.jpg
+        run: wget -O collage.jpg https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true > collage.jpg
       - uses: actions/upload-artifact@v4
         with:
           name: my-artifact
