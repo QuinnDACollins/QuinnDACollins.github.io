@@ -10,7 +10,7 @@
           <div class="hidden md:visible grid grid-cols-2 spacing-4 gap-x-8 gap-y-4 md:flex md:flex-row">
             {{- range where .Site.RegularPages "Type" "showcase" -}}
             <span onclick="setShowcaseInfo(this)" title="{{ .LinkTitle }}" data-description="{{ .Content }}" class="border-2 rounded-full border-black hover:border-black/50 h-33 w-33 flex">
-              <model-viewer class="relative bottom-2" src="showcase/{{ .Params.content }}" camera-controls touch-action="none"></model-viewer>
+              <model-viewer class="relative bottom-2" src="showcase/{{ .Params.content }}" camera-controls disable-tap touch-action="none"></model-viewer>
             </span>
             {{ end }}
           </div>
