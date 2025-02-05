@@ -36,10 +36,10 @@ jobs:
     steps:
       - name: get collage
         run: | 
-          wget -O collage.jpg https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true
+          curl https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true > collage.jpg
       - uses: actions/upload-artifact@v4
         with:
-          name: collage
+          name: upload collage
           path: ./themes/pasoquinn/assets/img/collage.jpg
       - name: Install Hugo CLI
         run: |
