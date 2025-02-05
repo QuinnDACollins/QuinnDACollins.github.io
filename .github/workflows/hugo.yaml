@@ -40,12 +40,11 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Download file from URL
-        run: |
-          curl -L "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true" -o collage.jpg
+        run: curl "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true" -o collage.jpg
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
-          name: collage.jpg
+          name: collage
           path: themes/pasoquinn/assets/img/collage.jpg
       - name: Install Hugo CLI
         run: |
