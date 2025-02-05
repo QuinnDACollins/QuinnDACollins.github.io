@@ -28,17 +28,15 @@ defaults:
     shell: bash
 
 jobs:
-  download-img:
-    - uses: suisei-cn/actions-download-file@818d6b7dc8fe73f2f924b6241f2b1134ca1377d9 # 1.6.0
-    id: downloadfile  # Remember to give an ID if you need the output filename
-    - name: Download a file
-    run: curl https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true -o ./themes/pasoquinn/assets/img/collage.jpg
   # Build job
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.141.0
     steps:
+        - name: get collage
+        run: curl https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true -o ./themes/pasoquinn/assets/img/collage.jpg
+
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
