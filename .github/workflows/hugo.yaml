@@ -34,7 +34,7 @@ jobs:
     env:
       HUGO_VERSION: 0.141.0
     steps:
-        - name: get collage
+      - name: get collage
         run: wget https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true -o ./themes/pasoquinn/assets/img/collage.jpg
       - name: Install Hugo CLI
         run: |
