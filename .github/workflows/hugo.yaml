@@ -38,7 +38,7 @@ jobs:
       - name: Download File
         run: |
           curl https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true --output ./collage.jpg
-        working-directory: ${{ github.workspace }
+        working-directory: ${{ github.workspace }}
       - name: Commit and Push Changes
         run: |
           git config --global user.name "${{ github.actor }}"
