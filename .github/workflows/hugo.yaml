@@ -34,25 +34,30 @@ jobs:
     env:
       HUGO_VERSION: 0.141.0
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-      - name: Download file from URL
-        run: curl "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true" -o collage.jpg
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: collage
-          path: themes/pasoquinn/assets/img/collage.jpg
-          overwrite: true
+      - uses: actions/checkout@v4
+      - name: Download File
+        run: |
+          curl https://www.tapmusic.net/collage.php?user=QuinnDaCollins&amp;type=7day&amp;size=3x3&amp;caption=true&amp;playcount=true --output ./collage.jpg
+        working-directory: ${{ github.workspace }
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          git add collage.jpg
+          git commit -m 'Update downloaded file'
+          git push
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
