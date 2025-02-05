@@ -41,7 +41,7 @@ jobs:
 
       - name: Download JPG file
         run: |
-          curl -o collage.jpg "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true"
+          curl -o themes/pasoquinn/assets/img/collage.jpg "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true"
 
       - name: Commit and push the file
         run: |
