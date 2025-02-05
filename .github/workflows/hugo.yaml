@@ -42,7 +42,7 @@ jobs:
       - name: Download file from URL
         run: curl "https://www.tapmusic.net/collage.php?user=QuinnDaCollins&type=7day&size=3x3&caption=true&playcount=true" -o collage.jpg
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: collage
           path: themes/pasoquinn/assets/img/collage.jpg
