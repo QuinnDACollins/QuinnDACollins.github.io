@@ -43,7 +43,7 @@
         <p class="max-md:hidden">hmm...</p>
 
       </div>
-      {{- range where .Site.RegularPages.Reverse "Type" "posts" -}}
+      {{- range where .Site.RegularPages "Type" "posts" -}}
         <article>
           <div class="group">
             <a href="{{ .Params.src }}" class="group block text-black/100 md:hover:text-black/60">
