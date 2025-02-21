@@ -1,6 +1,6 @@
 +++
 title = 'loner 2'
-date = 2024-02-04
+date = 2025-02-04
 draft = false
 tags = ['tiktok']
 content = "loner2.webp"

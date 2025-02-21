@@ -1,6 +1,6 @@
 +++
 title = 'bird catcher 2'
-date = 2024-02-04
+date = 2025-02-02
 draft = false
 tags = ['tiktok']
 content = "birdcatcher2.png"
