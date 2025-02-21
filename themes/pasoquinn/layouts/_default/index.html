@@ -2,9 +2,9 @@
   {{ .Content }}
     <div class="min-h-full w-full p-[5rem_5rem_5rem] md:lg:p-[4rem_2.5rem_5rem] md:p-[0rem_1.5rem_2rem] font-[seurat]">
       <div class="flex flex-col md:flex-row justify-between w-full">
-        <div class="flex flex-col">
+        <div class=" flex-shrink-0 flex-col md:w-1/6">
           <p class="text-6xl belanosima-regular text-center"> Quinns World </p>
-          <img src="img/me.png" class="flex-shrink-0 rounded-full items-center p-4">
+          <img src="img/me.png?1235" class="rounded-full items-center p-4 md:w-full">
         </div>
         <div class="flex flex-col max-md:grid gap-y-12 border-b-2 border-black md:w-1/2">
           <div class="grid grid-cols-2 spacing-4 gap-x-8 gap-y-1 w-full md:flex md:flex-row">
@@ -21,7 +21,9 @@
 
         </div>
         <div class="flex flex-col w-full md:w-1/4 px-8 flex-shrink-0 max-md:mt-8">
-          <img class="max-md:hidden rounded-lg flex justify-center aspect-square flex-shrink-0" src="img/collage.png">
+          {{ $seed := now.Unix }}
+          {{ $exp := printf "%.10s" (sha256 $seed) }}
+          <img class="max-md:hidden rounded-lg flex justify-center aspect-square flex-shrink-0" src="img/collage.png?{{ $exp }}">
           <div class="flex flex-wrap md:grid md:grid-cols-2 gap-[0.5rem] md:mb-4 justify-center">
             <a class="md:hover:opacity-60 hover:underline" href="https://www.tiktok.com/@quinnquinnquinnquinn">tiktok</a>
             <a class="md:hover:opacity-60 hover:underline" href="https://x.com/Quinnorsumn">twitter</a>
